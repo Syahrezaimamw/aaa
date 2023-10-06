@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.containerMain1{
+    background-image: linear-gradient(to bottom,rgb(111,49,139), rgb(212,110,134));
+    height: 445px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerMain1 .wrapperMain1{
+    /* background-color: lightcoral; */
+    margin-top: 20px;
+    height: 80%;
+    width: 80%;
+    /* width: 75%; */
+    display: flex;
+}
+.containerMain1 .wrapperMain1 .text{
+    /* background-color: red; */
+    margin-left: 12px;
+    width: 50%;
+}
+.containerMain1 .wrapperMain1 .text h1{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.containerMain1 .wrapperMain1 .text h1 span{
+    color: rgb(255,255,0);
+}
+.containerMain1 .wrapperMain1 .text .h1Dua{
+    margin-top: -18px;
+}
+.containerMain1 .wrapperMain1 .text p{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+.containerMain1 .wrapperMain1 .text .p2{
+    margin-top: -10px;
+}
+.containerMain1 .wrapperMain1 .daftarYuk{
+    margin-top: 40px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(255,192,7);
+    border-radius: 10px;
+    padding: 13px 28px;
+    color:rgb(130,40,152);
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* gambar */
+.containerMain1 .wrapperMain1 .gmbr{
+    /* background-color: aqua; */
+    width: 50%;
+}
+.containerMain1 .wrapperMain1 .gmbr img{
+    margin-top: -38px;
+    margin-left: 60px;
+    width: 473px;
+}

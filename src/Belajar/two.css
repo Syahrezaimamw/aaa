@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.containerTwo{
+    margin-top: 50px;
+    /* background-color: red; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.containerTwo .wrapperTwo{
+    /* background-color: antiquewhite; */
+    background-image: url(../images/fundamentalsBanner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+    width: 75%;
+    display: flex;
+    justify-content: end;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.containerTwo .wrapperTwo .text{
+    margin-top: 80px;
+    /* margin-left: 80px; */
+    /* background-color: aqua; */
+    height: 300px;
+    width: 470px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.containerTwo .wrapperTwo .text h1{
+    font-weight: 600;
+    color: white;
+    font-size:23px;
+} 
+.containerTwo .wrapperTwo .text p{
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+}
+.containerTwo .wrapperTwo .text .wa{
+    margin-top: -12px;
+}
+.containerTwo .wrapperTwo .text .ra{
+    margin-top: -7px;
+}
+.containerTwo .wrapperTwo .text button{
+    margin-top: 15px;
+    font-family: 'Maven Pro', sans-serif;
+    border: none;
+    width: 360px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border-radius: 13px;
+    color: #7B1FA1;
+    font-size: 16px;
+}
+.containerTwo .wrapperTwo .text h2{
+    margin-top: 10px;
+    font-weight: 700;
+    color: white;
+    font-size:15px;
+} 
+.containerTwo .wrapperTwo .text .posisi{
+    /* margin-top: 10px; */
+    /* background-color: aqua; */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}

@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.containerFive{
+    /* margin-top: -50px; */
+    position: relative;
+    top: -30px;
+    /* background-color: red; */
+    height: 300px;
+    /* position: absolute;
+    top: 0; */
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+}
+.containerFive .wrapperFive{
+    /* background-color: aqua; */
+    width: 75%;
+    height: 200px;
+}
+.containerFive .wrapperFive .satu .gambar img{
+    width: 160px;
+}
+.containerFive .wrapperFive  .gambar{
+    /* background-color: red; */
+    display: flex;
+}
+.containerFive .wrapperFive .satu h1{
+    font-family: 'Maven Pro', sans-serif;
+    font-size:25px;
+    color: #7B1FA1;
+}
+
+.containerFive .wrapperFive .satu .gambar .gambarDua{
+    margin-left: 30px;
+}
+
+.containerFive .wrapperFive .dua .gambar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerFive .wrapperFive .dua{
+    margin-top: 80px;
+    /* background-color: green; */
+    /* justify-content: space-between; */
+}
+.containerFive .wrapperFive .dua h1{
+    font-family: 'Maven Pro', sans-serif;
+    font-size:25px;
+    color: #7B1FA1;
+}
+.containerFive .wrapperFive .dua .gb2{
+    background-color: violet;
+    width: 560px;
+    height: 260px;
+    /* border: 1px solid black; */
+    border-radius: 35px;
+    position: relative;
+}
+.containerFive .wrapperFive .dua .ss{
+    background-color: rgb(248,183,56);
+
+    /* background-image: url(../images/featureZenbot.png); */
+   
+}
+.containerFive .wrapperFive .dua .ss img{
+    width: 250px;
+    /* height: 100px; */
+    position: absolute;
+    right: 0px;
+}
+.containerFive .wrapperFive .dua .uu img{
+    width: 490px;
+    /* height: 300px; */
+    /* height: 100px; */
+    position: absolute;
+    right: 0px;
+}
+.containerFive .wrapperFive .dua .uu{
+    background-image:linear-gradient(90deg,rgb(222, 160, 216) 55%, rgb(209, 79, 194))  ;
+    /* background-position: right bottom; */
+}
+.containerFive .wrapperFive .gb2 .text {
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+
+}
+.containerFive .wrapperFive .gb2 p{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Maven Pro', sans-serif;
+}
+.containerFive .wrapperFive .gb2 .text  .pdua{
+    margin-top: -7px;
+}
+.containerFive .wrapperFive .gb2 .text  .psatu{
+    /* margin-top: -10px; */
+}
+.containerFive .wrapperFive .gb2 .text h4{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(253, 244, 244,0.6);
+    margin-top: -3px;
+}
+.containerFive .wrapperFive .uu .text h1{
+    color: #ffbf00;
+    font-size:21px;
+
+}

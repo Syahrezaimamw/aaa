@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.containerNi{
+    /* background-color: red; */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+.containerNi .wrapperNi{
+    /* background-color: blue; */
+    width: 80%;
+    /* width: 75%; */
+    height: 400px;
+    margin-top: 30px;
+}
+.containerNi .wrapperNi .satu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: violet; */
+
+    height: 90px;
+    font-family:'Maven Pro', sans-serif  ;
+}
+.containerNi .wrapperNi .satu h1{
+    margin-left: 10px;
+    font-size: 26px;
+    color: rgb(34, 34, 34);
+}
+.containerNi .wrapperNi .satu .seemore{
+    margin-right: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 30px;
+    border: 1px solid rgb(123,38,164) ;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(123,38,164);
+}
+
+.containerNi .wrapperNi .dua{
+    margin-left: 20px;
+    width: 96%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    /* height: 700px; */
+}
+.containerNi .wrapperNi .dua img{
+    width: 377px;
+    height: 165px;
+}
+
+/* dua */
+.containerNiTwo{
+    background-color: rgb(250,239,255);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerNiTwo .wrapperNiTwo{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: fit-content;
+}
+.containerNiTwo .wrapperNiTwo h1{
+    position: relative;
+    margin-top: 20px;    
+    font-family:'Maven Pro', sans-serif  ;
+    font-size: 27px;
+    color: rgb(53, 53, 53);
+}
+.containerNiTwo .wrapperNiTwo img{
+    padding-bottom: 20px;
+    margin-top: 21px;
+    width: 690px;
+    height: 380px;
+    border-radius: 40px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* box-shadow: 0px 0px 4px black; */
+}
+.wrapperNiTwo .gm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerNiTwo .wrapperNiTwo .gm .bulet{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(172,68,178);
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 8; */
+}
+.containerNiTwo .wrapperNiTwo .gm{
+    z-index: 8;
+}
+.containerNiTwo .wrapperNiTwo .gm .bulet .isiTarget{
+    /* background-color: red; */
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    z-index: -1;
+    width: 690px;
+    height: 380px;
+    border-radius: 40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.containerNiTwo .wrapperNiTwo  .ee{
+    /* background-color: red; */
+    width: fit-content;
+    /* height: 400px; */
+    margin-top: 70px;
+    /* border-radius: 30px; */
+    position: absolute;
+    /* border: 6px solid purple; */
+    z-index: -3;
+}
+.containerNiTwo .wrapperNiTwo .ee:target{
+    z-index: 10;
+    /* top: 990px; */
+}
+.containerNiTwo .wrapperNiTwo .gm .bulet .segitiga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 26px;
+    color: white;
+    margin-left: 3px;
+    /* background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px; */
+}
+.containerNiTwo .wrapperNiTwo .gm .bulet .segitiga a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    font-size: 12px;
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    color: transparent;
+    background-color: transparent;
+}

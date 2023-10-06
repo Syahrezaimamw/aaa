@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.containerMain3{
+    margin-top: 50px;
+    /* width: 100px; */
+    height: 600px;
+    /* background-color: salmon; */
+
+}
+.containerMain3 .wrapperMain3{
+    margin: 0px auto;
+    width: 80%;
+    /* background-color: turquoise; */
+    height: 500px;
+    font-family:'Maven Pro', sans-serif  ;
+    
+}
+.containerMain3 .wrapperMain3 h1{
+    font-weight: 700;
+    font-size: 27px;
+    color: rgb(60,145,230);
+}
+.containerMain3 .wrapperMain3 p{
+    color: rgb(50, 49, 49);
+    margin-top: -5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.containerMain3 .wrapperMain3 .dua{
+    /* background-color: salmon; */
+    height: 600px;
+   display: flex;
+   margin-top: 30px;
+   /* flex-direction: column; */
+
+}
+.containerMain3 .wrapperMain3 .dua .ichi{
+    /* margin-left: 10px; */
+    /* background-color: white; */
+    background-color: white;
+    /* border-top: 15px solid black; */
+    border-radius: 10px;
+    width: 260px;
+    height: 435px;
+    box-shadow: -1px 2px 10px #DFDFDF,1px 0px 10px #DFDFDF ;
+}
+.containerMain3 .wrapperMain3 .dua .tty{
+    margin-left: 15px;
+}
+.containerMain3 .wrapperMain3 .dua #one{
+    border-top: 16px solid rgb(255,192,7);
+}
+.containerMain3 .wrapperMain3 .dua #two{
+    border-top: 16px solid rgb(60,145,230);
+}
+.containerMain3 .wrapperMain3 .first{
+    margin-top: -14px;
+    /* background-color: aqua; */
+    height: 140px;
+    border-bottom: 1px solid rgb(154, 150, 150);
+}
+.containerMain3 .wrapperMain3 .first .firstOne{
+    /* background-color: gray; */
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.containerMain3 .wrapperMain3 .first .firstOne h1{
+    font-size: 21px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.containerMain3 .wrapperMain3 .first .firstOne p{
+    color: rgb(37, 37, 37);
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.containerMain3 .wrapperMain3 .first .second{
+    /* background-color: red; */
+    margin-top: 18px;
+    height: 100px;
+    display: flex;
+}
+.containerMain3 .wrapperMain3 .first .second .new{
+    background-color: rgb(255,192,7);
+    padding: 7px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 6px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.containerMain3 .wrapperMain3 .first .second .dapat{
+    background-color: rgb(96,152,18);
+    margin-left: 5px;
+    padding: 7px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 6px;
+    font-family: 'Maven Pro', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+/* dua */
+.dua .sec{
+    /* background-color: red; */
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.dua .sec p{
+    color: #726f6f;
+    font-family:'Maven Pro', sans-serif  ;
+    font-weight: 500;
+    font-size: 15px;
+}
+.dua .sec p span{
+    text-decoration: line-through;
+}
+.dua .sec h1{
+    font-family:'Maven Pro', sans-serif  ;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -9px;
+    color: black;
+}
+.dua .sec .beli{
+    margin-left: 17px;
+    margin-top:15px;
+    /* background-color: red; */
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0px ;
+    font-family:'Maven Pro', sans-serif  ;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    border-radius: 10px;
+
+}
+.dua .sec #buy1{
+    background-color: rgb(255,192,7);
+}
+.dua .sec #buy2{
+    background-color:rgb(60,145,230);
+}
+
+/* tanda */
+.dua .tanda{
+    /* background-color
+    : red; */
+    margin-top: 13px;
+    height: 100px;
+}
+.dua .tanda .check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+}
+.dua .tanda #cek1{
+    background-color: rgba(255,192,7,0.3) ;
+    color:  rgb(255,192,7);
+}
+.dua .tanda #cek2{
+    background-color: rgba(60,145,230,0.3) ;
+    color:  rgb(60,145,230);
+}
+.dua .tanda .tulis{
+    /* background-color: red; */
+    margin-left: 30px;
+    margin-top: -16px;
+}
+.dua .tanda .tulis p{
+    color: rgb(62, 61, 61);
+    font-family:'Maven Pro', sans-serif  ;
+    font-weight: 600;
+    font-size: 12px;
+    /* margin-left: 10px;
+    margin-top: -11px; */
+}
+.dua .tanda .tulis .text2{
+    margin-top: -6px;
+}
+
+/* tinggal */
+.firstOne #h1{
+    color: black;
+}

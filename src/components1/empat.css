@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.containerEmpat{
+    /* background-color: red; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    /* align-items: center; */
+}
+.containerEmpat .wrapperEmpat{
+    background: linear-gradient(92.29deg, #56A92F 21.84%, #A2C755 91.53%);
+    height: 340px;
+    width: 81%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    /* height: 200px; */
+}
+.containerEmpat .wrn{
+    position: absolute;
+    height: 400px;
+    background-color: rgb(157, 196, 75);
+    width: 950px;
+    border-top-left-radius: 80%;
+    border-bottom-left-radius: 80%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    filter: blur(200px);
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+.containerEmpat .wrn2{
+    position: absolute;
+    height: 400px;
+    background-color: rgb(188, 248, 58);
+    width: 160px;
+    border-top-left-radius: 80%;
+    border-bottom-left-radius: 80%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    filter: blur(100px);
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+.containerEmpat .bgCoin{
+    position: absolute;
+    top: -20px;
+    right: -15px;
+    width: 250px;
+}
+.containerEmpat .bgCoin2{
+    position: absolute;
+    bottom: -25px;
+    left: -10px;
+    width: 250px;
+}
+.containerEmpat .wrapperEmpat .isi{
+    margin-top: -40px;
+    /* background-color: red; */
+    z-index: 1;
+    height: 80%;
+    width: 95%
+}
+.containerEmpat .wrapperEmpat .isi .zenCoin{
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 35px;
+}
+.containerEmpat .wrapperEmpat .isi .lihat{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: beige; */
+    margin-top: -20px;
+}
+.containerEmpat .wrapperEmpat .isi .lihat p{
+    color: white;
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+}
+.containerEmpat .wrapperEmpat .isi .lihat .btn{
+    width: fit-content;
+    height: fit-content;
+    color: rgb(123,62,174);
+    background-color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 35px;
+    border-radius: 10px;
+
+}
+
+
+.containerEmpat .wrapperEmpat .isi .box{
+    margin-top: 20px;
+    /* background-color: aliceblue; */
+    height: 150px;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 5px;
+}
+.containerEmpat .wrapperEmpat .isi .box .noBox{
+    background-color: white;
+    border-radius: 10px;
+    width: 278px;
+    /* border: 2px solid black; */
+
+}
+.containerEmpat .wrapperEmpat .isi .box .noBox .coin{
+    /* background-color: green; */
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px;
+    display: flex;
+    border-bottom: 1px solid rgb(213, 209, 209);
+
+}
+.containerEmpat .wrapperEmpat .isi .box .noBox .coin .pb{
+    /* background-color: red; */
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.containerEmpat .wrapperEmpat .isi .box .noBox .coin img{
+    width: 24px;
+    height: 24px;
+    margin-left: -18px;
+}
+.containerEmpat .wrapperEmpat .isi .box .noBox .coin p{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 7px;
+    margin-top:3px;
+}
+
+/* harga */
+.containerEmpat .wrapperEmpat .isi .box .noBox .harga{
+    /* background-color: aqua; */
+    height: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.containerEmpat .wrapperEmpat .isi .box .noBox .harga p{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(152,155,160);
+    margin-top: 20px;
+}
+.containerEmpat .wrapperEmpat .isi .box .noBox .harga p span{
+    text-decoration: line-through;
+}
+.containerEmpat .wrapperEmpat .isi .box .noBox .harga h1{
+    font-size: 22px;
+    margin-top: -10px;
+}

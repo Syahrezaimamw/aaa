@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.containerFour{
+    /* background-color: red; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerFour .wrapperFour{
+    /* background-color: aqua; */
+    height: 300px;
+    width: 75%;
+}
+.containerFour .wrapperFour h1{
+    font-family: 'Maven Pro', sans-serif;
+    font-size:25px;
+    color: #7B1FA1;
+}
+.containerFour .wrapperFour .down{
+    display: flex;
+    align-items: center;
+}
+.containerFour .wrapperFour .down button{
+    margin-left: 35px;
+display: flex;
+width: 320px;
+height: 38px;
+justify-content: center;
+align-items: center;
+border: 1px solid #7B1FA1;
+/* padding: 0px 40px; */
+border-radius: 9px;
+background-color: white;
+color: #7B1FA1 ;
+transition: 0.5s;
+}
+.containerFour .wrapperFour .down button:hover{
+    background-color:whitesmoke;
+}
+.containerFour .wrapperFour .down button p{
+    color:#7B1FA1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 20px;
+
+}
+.containerFour .wrapperFour button h4{
+    color:#7B1FA1;
+    font-size: 14px;
+    transform: rotate(90deg);
+    /* margin-left: -10px; */
+}
+.containerFour .wrapperFour .satu .gmbr{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.containerFour .wrapperFour .satu .gmbr .rr{
+    /* margin-left: 40px; */
+}
+
+.containerFour .wrapperFour .satu .gmbr{
+    display: flex;
+    /* background-color: red; */
+}
+.containerFour .wrapperFour .satu .gmbr p{
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* position: relative; */
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 450;
+    color: #484646;
+}
+.containerFour .wrapperFour .satu .gmbr .satuSatu{
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.containerFour .wrapperFour .satu .gmbr .satuDua{
+    margin-left: 30px;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerFour .wrapperFour .dua{
+    margin-top: 60px;
+}
+.containerFour .wrapperFour .dua .ww{ 
+    margin-top: 20px;
+    margin-left: -50px;
+}
+.containerFour .wrapperFour .dua .gmbr .bulet{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* background-color: tan; */
+    position: relative;
+    height: 157px;
+    justify-content: space-evenly;
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: start;
+    
+}
+.containerFour .wrapperFour .dua .gmbr .buldua{
+    margin-top: 30px; 
+}
+.containerFour .wrapperFour .dua .gmbr .tp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    /* height: 900px; */
+}
+.containerFour .wrapperFour .satu .gmbr img{
+    width: 100%;
+    height: 110%;
+}
+.containerFour .wrapperFour .dua .gmbr .b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 118px;
+    height: 118px;
+    /* background-color:black; */
+    border-radius: 50%;
+}
+.containerFour .wrapperFour .dua .gmbr .la{
+    margin-left: 20px;
+}
+
+/* warna */
+#blsatu{
+    background: linear-gradient(284.43deg, rgb(167, 210, 255) -60.13%, rgb(94, 157, 221) 94.65%);
+    /* margin-left: -30px; */
+}
+#bldua{
+    background: radial-gradient(114.53% 109.92% at 76.84% -17.37%, rgb(106, 192, 211) 0%, rgb(21, 137, 186) 93.23%, rgb(15, 133, 184) 100%);
+
+}
+#bltiga{
+    background: radial-gradient(120.43% 117.37% at 76.84% -17.37%, rgb(190, 222, 121) 0%, rgb(83, 163, 45) 100%);
+
+}
+#blempat{
+    background: radial-gradient(116.68% 112.05% at 76.84% -17.37%, rgb(100, 201, 153) 0%, rgb(33, 143, 97) 100%);
+
+}
+#bllima{
+    background: radial-gradient(114.53% 109.92% at 76.84% -17.37%, rgb(218, 68, 113) 0%, rgb(167, 41, 101) 100%);
+
+}
+#blenam{
+    background: radial-gradient(116.68% 112.05% at 76.84% -17.37%, rgb(207, 64, 72) 0%, rgb(146, 29, 35) 100%);
+
+}
+#bltujuh{
+    background: radial-gradient(116.68% 112.05% at 76.84% -17.37%, rgb(242, 188, 49) 0%, rgb(246, 121, 67) 100%);
+
+}
+#bldelapan{
+    background: radial-gradient(116.68% 112.05% at 76.84% -17.37%, rgb(248, 123, 54) 0%, rgb(147, 53, 12) 100%);
+
+
+}
+#blsembilan{
+    background: radial-gradient(120.58% 117.37% at 76.84% -17.37%, rgb(255, 153, 102) 0%, rgb(255, 94, 98) 100%);
+
+
+}
+#blsepuluh{
+    background: radial-gradient(120.58% 117.37% at 76.84% -17.37%, rgb(239, 135, 131) 0%, rgb(219, 78, 73) 100%);
+
+}
+#gg{
+    margin-top: 20px;
+}
+.gmbr .tp p{
+    position: absolute;
+    bottom: 0;
+    /* position: relative; */
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 450;
+    color: #484646;
+}
+
+
+.gmbr .tp .pdua{
+    margin-top: -10px;
+    bottom: -25px;
+    position: absolute;
+}

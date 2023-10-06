@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.containerEe{
+    /* background-color: red; */
+    height: 500px;
+    margin-top: 270px;
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: center;
+}
+.containerEe .wrapperEe{
+    /* background-color: aqua; */
+    width: 75%;
+    font-family: 'Poppins', sans-serif;
+    height: 300px;
+}
+.containerEe .wrapperEe .satu{
+    background-color: #7B1FA1;
+    height: 140px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.containerEe .wrapperEe .satu h1{
+    color: #FFC007;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+.containerEe .wrapperEe .satu button{
+    height: 60px;
+    background-color: white;
+    color: #7B1FA1;
+    border-radius: 32px;
+    width: 260px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.containerEe .wrapperEe .satu img{
+    position: relative;
+    top: -14px;
+    left: 20px;
+}
+.containerEe .wrapperEe .dua{
+    font-weight: 300;
+    /* background-color: wheat; */
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.containerEe .wrapperEe .dua .ftr .mail{
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+.containerEe .wrapperEe .dua .ftr .platform{
+    font-size: 16px;
+    margin-top: 7px;
+}
+.containerEe .wrapperEe .dua .ftr .mail{
+    /* background-color: red; */
+    /* justify-content: space-between; */
+}
+.containerEe .wrapperEe .dua .ftr .mail a{
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+   
+    /* font-weight: 700; */
+    border: none;
+    /* display: block; */
+}
+.containerEe .wrapperEe .dua .ftr .m{
+    margin-top: 20px;
+}
+.containerEe .wrapperEe .dua .ftr .mfirst{
+    margin-top: 20px;
+}
+
+.containerEe .wrapperEe .dua .ftr2{
+    display: flex;
+    /* background-color: gray; */
+    font-family: 'Poppins', sans-serif;
+}
+.containerEe .wrapperEe .dua .ftr2 h1{
+   
+    font-weight: 600;
+    font-size: 2em;
+    margin-top: 5px;
+    margin-right: 50px;
+    color: #7B1FA1;
+}
+.containerEe .wrapperEe .dua .ftr2 .geserh1{
+    margin-right: 60px;
+}
+.containerEe .wrapperEe .dua .ftr2 p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.containerEe .wrapperEe .dua .ftr2 .abt2{
+    margin-top: 20px;
+}
+.containerEe .wrapperEe .dua .ftr2 .abt1{
+    margin-top: -10px;
+}

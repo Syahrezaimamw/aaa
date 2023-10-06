@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.containerGo{
+    /* background-color: red; */
+    margin-top: 40px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.containerGo .wrapperGo{
+    /* background-color: white; */
+    /* background-color: aliceblue; */
+    width: 80%; 
+    /* width: 75%;  */
+}
+.containerGo .wrapperGo h1{
+    
+ font-family:'Maven Pro', sans-serif  ;
+ font-size: 25px;
+ color: rgb(51,51,51);
+}
+.containerGo .wrapperGo .gmbr{
+    display: flex;
+    
+}
+.containerGo .wrapperGo .one{
+    margin-left: -13px;
+}
+.containerGo .wrapperGo .gmbr .isi{
+    margin-top: 20px;
+    /* background-color: aqua; */
+    padding: 0px 15px;
+}
+.containerGo .wrapperGo .gmbr .isi img{
+    width: 278px;
+    height: 200px;
+}
+.containerGo .wrapperGo .gmbr .isi .profil{
+    margin-top: -3px;
+    font-family:'Maven Pro', sans-serif  ;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    height: 75px;
+    box-shadow: 3px 3px 8px rgb(212, 212, 212);
+
+}
+.containerGo .wrapperGo .gmbr .isi .profil img{
+    /* background-color: aqua; */
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+.containerGo .wrapperGo .gmbr .isi .profil .logo{
+    width: 25px;
+    height: 25px;
+    /* margin-left: 34px; */
+    position: relative;
+    right: 10px;
+    top: 1px;
+    /* background-color: aqua; */
+}
+.containerGo .wrapperGo .gmbr .isi .profil .logosatu{
+    /* margin-right: 10px; */
+    position: relative;
+    right: 10px;
+}
+.containerGo .wrapperGo .gmbr .isi .profil  p{
+    /* background-color: red; */
+    width: 170px;
+    margin-left: 12px;
+    margin-top: 12px;
+font-size: 15px;
+font-weight: 600;
+color:rgb(51,51,51) ;
+}
+
+.containerGo .wrapperGo .gmbr .isi .profil .dua{
+    margin-top: -10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(100, 96, 96);
+}

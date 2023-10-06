@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.containerMain2{
+    /* background-color: red; */
+    margin-top: 15px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+.containerMain2 .wrapperMain2{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 90%;
+    height: 480px;
+}
+.containerMain2 .wrapperMain2 .gerak{
+    /* background-color: yellow; */
+    padding-left: 5px;
+    padding-right: 5px;
+    display: grid;
+    grid-auto-flow:column;
+    column-gap: 15px;
+    height: 469px;
+    width: 1190px;
+    overflow-x: scroll;
+}
+
+.containerMain2 .wrapperMain2 .gerak #kotak{
+    background-color: white;
+    /* border-top: 15px solid black; */
+    border-radius: 10px;
+    width: 260px;
+    height: 430px;
+    box-shadow: -1px 2px 10px #DFDFDF,1px 0px 10px #DFDFDF ;
+    /* border-left: 1px solid black;
+    border-right: 1px solid black; */
+    /* box-shadow: ; */
+}
+.containerMain2 .wrapperMain2 .caver{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.containerMain2 .wrapperMain2 .caver .hidden{
+    background-color: white;
+    width: 1165px;
+    height: 10px;
+    position: relative;
+    top: -13px;
+    z-index: 999;
+    /* position: absolute;
+    top: 900px; */
+}
+
+/* STYLING KOTAK */
+.containerMain2 .gerak .satu{
+    border-top: 16px solid #BEBEBE;
+}
+.containerMain2 .gerak .dua{
+    border-top: 16px solid #A836D7;
+}
+.containerMain2 .gerak .tiga{
+    border-top: 16px solid #561770;
+}
+.containerMain2 .gerak .empat{
+    border-top: 16px solid #33AF7D;
+}
+.containerMain2 .gerak .lima{
+    border-top: 16px solid #000000
+    ;
+}
+
+.containerMain2 .gerak .one{
+    background-color: white;
+    padding-left: 15px  ;
+    height: 130px;
+    border-bottom: 1px solid #c5c4c4;
+}
+.containerMain2 .gerak .one h1{
+    font-size: 21px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.containerMain2 .gerak .one p{
+    color: rgb(37, 37, 37);
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+.containerMain2 .gerak .one .p1{
+    margin-top: -7px;
+}
+.containerMain2 .gerak .one .p2 {
+    margin-top: -7px;
+}
+
+
+.containerMain2 .gerak .one .oneIsi{
+    /* background-color: red; */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* height: 100px; */
+}
+.containerMain2 .gerak .one .oneIsi .new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 6px 8px;
+    background-color: #FFC007;
+    border-radius: 5px;
+    font-family:  'Maven Pro', sans-serif ;
+    font-size: 11px;
+    font-weight: 400;
+}
+.containerMain2 .gerak .one .oneIsi .popular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 6px 6px;
+    background-color:#FF521B;
+    color: white;
+    border-radius: 5px;
+    font-family:  'Maven Pro', sans-serif ;
+    font-size: 11px;
+    font-weight: 500;
+}
+.containerMain2 .gerak .one .oneIsi .coin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Maven Pro', sans-serif  ;
+    font-weight: 500;
+    font-size: 11px;
+    margin-left: 2px;
+    background-color: #609812;
+    color: white;
+    padding: 6px 8px;
+    border-radius: 5px;
+
+}
+
+
+/* DUA */
+.containerMain2 .gerak .two{
+    background-color: aqua;
+    background-color: white;
+    padding-left: 15px  ;
+    height: 270px;
+}
+.containerMain2 .gerak .two .harga{
+    color: #726f6f;
+    font-family:'Maven Pro', sans-serif  ;
+    font-weight: 500;
+    font-size: 15px;
+}
+.containerMain2 .gerak .two .harga span{
+    /* list-style: ; */
+    text-decoration: line-through;
+}
+.containerMain2 .gerak .two .hargaPromo{
+    font-family:'Maven Pro', sans-serif  ;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -9px;
+}
+.containerMain2 .gerak .two .beli{
+    margin-left: 19px;
+    margin-top:15px;
+    background-color: red;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0px ;
+    font-family:'Maven Pro', sans-serif  ;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    border-radius: 10px;
+
+}
+.containerMain2 .gerak .two #wrn5{
+    background-color: #000000;
+}
+.containerMain2 .gerak .two #wrn4{
+    background-color: #33AF7D;
+}
+.containerMain2 .gerak .two #wrn3{
+    background-color: #561770;
+}
+.containerMain2 .gerak .two #wrn2{
+    background-color: #A836D7    ;
+
+
+}
+.containerMain2 .gerak .two #wrn1{
+    background-color:  rgb(190,190,190)  ;
+    /* font-size: 15px; */
+
+
+}
+.containerMain2 .gerak .two .twoIsi{
+    margin-top: 18px;
+    margin-left: 5px;
+    /* background-color: salmon; */
+}
+.containerMain2 .gerak .two .twoIsi .wr{
+    display: flex;
+    
+    /* justify-content: space-between; */
+}
+.containerMain2 .gerak .two .twoIsi .wr .check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+}
+.containerMain2 .gerak .two .twoIsi .wr  #wrnCheck2{
+    background-color:  rgba(168,54,215,0.3);
+    color:  #A836D7;
+}
+.containerMain2 .gerak .two .twoIsi .wr  #wrnCheck3{
+    background-color:  rgba(86,23,112,0.4);
+    color: #561770;
+}
+.containerMain2 .gerak .two .twoIsi .wr  #wrnCheck4{
+    background-color:  rgba(51,175,125,0.3);
+    color:  rgb(51,175,125);
+}
+.containerMain2 .gerak .two .twoIsi .wr  #wrnCheck5{
+    background-color:  rgba(0,0,0,0.3);
+    color:  rgb(0,0,0);
+}
+.containerMain2 .gerak .two .twoIsi .wr  #wrnCheck1{
+    background-color: rgba(190,190,190,0.3);
+    color:  rgb(190,190,190);
+}
+.containerMain2 .gerak .two .twoIsi .wr .tulis{
+    color: rgb(62, 61, 61);
+    font-family:'Maven Pro', sans-serif  ;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: -11px;
+}
+.containerMain2 .gerak .two .twoIsi .wr .tulis .text2{
+    margin-top: -6px;
+}
+
+/* satu */
+.containerMain2  #sat{
+     margin-top: 20px;
+     /* background-color: salmon; */
+}
+.containerMain2 .gerak .two #wrn1{
+    background-color: rgb(190,190,190);
+
+
+}

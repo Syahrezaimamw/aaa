@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.master {
+    /* background-color: red; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.master .wrapperMaster{
+    margin-top: 70px;
+    /* background-color: aqua; */
+    width: 80%;
+    /* width: 75%; */
+    
+    font-family:'Maven Pro', sans-serif  ;
+}
+
+.master .wrapperMaster h1{
+    font-size: 25px;
+    color: rgb(53, 53, 53);
+
+
+}
+.wrapperMaster .gmbrMaster{
+    /* background-color: purple; */
+   display: flex;
+   justify-content: center;
+   
+}
+
+
+.wrapperMaster .gmbrMaster img{
+    margin-top: 40px;
+    margin-left: 15px;
+    height: 290px;
+    width: 290px;
+    border-radius: 9px;
+    
+}
+
+.wrapperMaster .gmbrMaster .tu{
+    margin-left: 0px;
+}

@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(241, 239, 239) */
+}
+.containerAa{
+    /* background-color: aliceblue; */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerAa .wrapperAa{
+    background-color: aqua;
+    width: 75%;
+    height: 225px;
+    border-radius: 23px;
+     overflow: hidden;
+    
+}
+.containerAa .wrapperAa .gambar{
+    background-color: olive;
+    /* width: 100%; */
+    height: 225px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 23px;
+    /* overflow-x: scroll; */
+   
+}
+
+.containerAa .wrapperAa .gambar img{
+   height: fit-content ;
+   width: 1150px;
+}
+.containerAa .wrapperAa .gambar .bt2{
+    position: absolute;
+    width: 1135px;
+    height:225px;
+    border-radius: 23px;
+    z-index: -1;
+    /* width: 1150px; */
+}
+.containerAa .wrapperAa .gambar .arrow {
+    background-image: url(../images/Arrow.jpg);
+    height: 45px;
+    background-size: 100%;
+    width: 45px;
+    position: absolute;
+    right: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* top: 20px; */
+}
+.containerAa .wrapperAa .gambar .rw{
+    left: 120px;
+    transform: rotate(180deg);
+}
+.containerAa .wrapperAa .gambar .arrow a{
+    background-color: transparent;
+    color: transparent;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerAa .wrapperAa .gambar .ui:active, .bt2{
+    /* z-index: 9; */
+}
+.containerAa .wrapperAa .gambar .rw:active, .bt2{
+
+}
+ #trrr:target{
+    z-index: 9;
+}
+#trrrr:target{
+    z-index: -99;
+}

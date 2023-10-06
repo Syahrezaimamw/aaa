@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.containerSix{
+    /* background-color: black; */
+    height: 640px;
+    /* position: relative; */
+    margin-top:300px ;
+    display: flex;
+    justify-content: center;
+}
+.containerSix .wrapperSix{
+    /* background-color: red; */
+    width: 75%;
+    height: 500px;
+}
+
+.containerSix .wrapperSix .satu{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: center;
+}
+.containerSix .wrapperSix .satu h1{
+    font-family: 'Maven Pro', sans-serif;
+    font-size:25px;
+    color: #7B1FA1;
+}
+.containerSix .wrapperSix .satu h2{
+    color: #3C91E6;
+    font-family: 'Maven Pro', sans-serif;
+    font-size:16px;
+}
+
+.containerSix .wrapperSix .dua{
+    /* background-color: green; */
+    margin-top: 20px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.containerSix .wrapperSix .dua .kotak{
+    background-color: white;
+    width: 270px;
+    height: 350px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Maven Pro', sans-serif;
+    position: relative;
+    box-shadow: 0px 0px 10px rgb(213, 211, 211);
+}
+.containerSix .wrapperSix .dua .kotak img{
+    width: 270px;
+}
+/* .containerSix .wrapperSix .dua  .ktkTiga img{
+    height: 154px;
+} */
+.containerSix .wrapperSix .dua .ktkDua{
+    height: 456px;
+}
+.containerSix .wrapperSix .dua .ktksatu{
+    height: 348px;
+}
+.containerSix .wrapperSix .dua #ree{
+    height: 433px;
+    /* background-color: black; */
+}
+.containerSix .wrapperSix .dua .ktkEmpat{
+    height: 456px;
+}
+/* .containerSix .wrapperSix .dua #ree button{
+    margin-top: 10px;
+} */
+
+
+.containerSix .wrapperSix .dua .kotak button{
+    padding: 6px 15px;
+    border: 2px solid white;
+    position: relative;
+    top: -20px;
+    left: 13px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    /* font-family: ; */
+    border-radius: 25px;
+    background-color:  #FFC007;
+
+}
+
+.containerSix .wrapperSix .dua .kotak h3{
+    margin-top: -5px;
+    margin-left: 16px;
+    font-size: 16px;
+}
+.containerSix .wrapperSix .dua .kotak .h3dua{
+    margin-top: -10px;
+}
+
+.containerSix .wrapperSix .dua .kotak .ic{
+    display: flex;
+    /* background-color: aqua; */
+    height: 20px;
+    margin-left: 16px;
+    /* margin-top: -5px; */
+    /* justify-content: center; */
+    align-items: center;
+}
+.containerSix .wrapperSix .dua .kotak .ic img{
+   width: 32px;
+   /* box-shadow: 0px 0px 3px black; */
+}
+/* .containerSix .wrapperSix .dua .kotak .ictga img{
+   width: 32px;
+   height: 32px;
+} */
+.containerSix .wrapperSix .dua .kotak .ic .wa{
+    margin-top: 7px;
+    margin-left: 4px;
+}
+.containerSix .wrapperSix .dua .kotak .ic .ww{
+    margin-left: -1px;
+    margin-top: 1px;
+    /* background-color: red; */
+}
+
+.containerSix .wrapperSix .dua .kotak .textt{
+    /* background-color: aqua; */
+    margin-left: 16px;
+}
+.containerSix .wrapperSix .dua .kotak .textt p{
+    font-size: 14px;
+    font-weight: 410;
+    color: rgb(45, 45, 45);
+}
+.containerSix .wrapperSix .dua .kotak .textt .pp{
+    margin-top: -9px;
+}
+
+.containerSix .wrapperSix .dua .kotak .continue .coment img{
+    width: 16px;
+}
+
+.containerSix .wrapperSix .dua .kotak .continue {
+    font-family: 'Maven Pro', sans-serif;
+    /* background-color: firebrick; */
+    width: 236px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+    position: absolute;
+    bottom: 0;
+    height: 65px;
+    border-top: 1px solid rgb(204, 202, 202);
+}
+.containerSix .wrapperSix .dua .kotak .continue .inti{
+
+    /* background-color: aqua; */
+    font-size: 12px;
+    font-weight: 600;
+    width: 170px;
+    height: 30px;
+    border-right: 1px solid rgb(204, 202, 202);
+    /* width: 50px; */
+    display:flex;
+    align-items: center;
+    
+}
+.containerSix .wrapperSix .dua .kotak .continue .coment{
+    /* background-color: red; */
+    margin-left: 15px;
+    display:flex;
+    align-items: center;
+}
+.containerSix .wrapperSix .dua .kotak .continue .coment p{
+    /* background-color: aqua; */
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(117, 116, 116);
+    margin-left: 5px;
+}

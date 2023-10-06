@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.containerBb{
+    /* background-color: aliceblue; */
+    margin-top: 130px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.containerBb .wrapperBb{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 75%;
+    height: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+.containerBb .wrapperBb h1{
+    /* font-family: 'Maven Pro', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #AB50FA;
+    font-weight: 700;
+}
+.containerBb .wrapperBb .h1dua{
+    margin-top: -20px;
+   
+}
+.containerBb .wrapperBb .text {
+    /* background-color: #AB50FA; */
+    color: rgb(101, 100, 100);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.containerBb .wrapperBb .text .dua{
+    margin-top: -10px;
+}
+.containerBb .wrapperBb .satu .text{
+    margin-top: 0px;
+} 
+.containerBb .wrapperBb button{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 30px;
+    width: 130px;
+    height: 55px;
+    background-color:  #7B1FA1;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.containerBb .wrapperBb button:hover{
+    background-color:  #60217b;
+}
+.containerBb .wrapperBb .satu{
+    margin-top: -100px;
+}
+.containerBb .wrapperBb .duaa{
+    margin-top: -80px;
+    position: relative;
+    left: 40px;
+}

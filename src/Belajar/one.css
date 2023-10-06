@@ -1,0 +1,69 @@
+.yaya{
+    /* width: 200px; */
+    height: 400px;
+    z-index: -999;
+    padding: 0px;
+    /* margin-top: -10px; */
+    /* background-color: aqua; */
+    background-image: url('../images/hero.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+}
+.yaya .wrapperOne{
+    /* background-color: aqua; */
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.yaya .wrapperOne .ktk1{
+    position: relative;
+    top: 40px;
+    /* margin-top: 40px; */
+    background-color: white;
+    width: 700px;
+    border-radius: 15px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Maven Pro', sans-serif;
+}
+.yaya .wrapperOne .ktk1 h1{
+    font-size: 20px;
+}
+.yaya .wrapperOne .ktk1 .txt2{
+    margin-right: 20px;
+}
+.yaya .wrapperOne .ktk1 .txt1{
+    margin-left: 20px;
+}
+
+.yaya .wrapperOne .ktk2{
+    position: relative;
+    bottom: -20px;
+    /* margin-bottom: -0px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 500px;
+    height: 90px;
+    border-radius: 15px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+
+}
+.yaya .wrapperOne .ktk2 p{
+    margin-left: -50px;
+    color: rgb(155, 155, 155);
+}
+.yaya .wrapperOne .ktk2 img{
+    position: relative;
+    left: 60px;
+    width: 25px;
+}
